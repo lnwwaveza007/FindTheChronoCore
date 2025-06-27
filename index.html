@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal - Arch Linux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="button close"></span>
+                <span class="button minimize"></span>
+                <span class="button maximize"></span>
+            </div>
+            <div class="terminal-title">Terminal</div>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-content" id="terminal-content">
+                <div class="terminal-line">
+                    <span class="prompt">[pi3Apple@archlinux ~]$ </span>
+                    <span class="cursor" id="cursor">█</span>
+                </div>
+            </div>
+            <input type="text" id="hidden-input" class="hidden-input" autocomplete="off">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
